@@ -1,0 +1,64 @@
+@import "tailwindcss";
+
+@theme {
+  --color-hibiscus: #e63e6d;
+  --color-sand:     #f7e7ce;
+  --color-offwhite: #faf8f3;
+
+  /* Tropical (matches Figma "Tropical" variables) */
+  --color-mango:    #ffb627;
+  --color-papaya:   #ff7f50;
+  --color-lagoon:   #00a6a6;
+  --color-palm:     #1b7f5a;
+  --color-deep-sea: #0b3c49;
+  --color-white:    #ffffff;
+
+  /* Flamingo Sunset */
+  --color-flamingo-sunset-coral: #ff6f61;
+  --color-flamingo-sunset-peach: #ffb88c;
+  --color-flamingo-sunset-mango: #ffd23f;
+  --color-flamingo-sunset-plum:  #2e1a47;
+
+  /* Lagoon */
+  --color-lagoon-teal:     #00807f;
+  --color-lagoon-sand:     #f4e8c1;
+  --color-lagoon-aqua:     #4fd1c5;
+  --color-lagoon-deep-sea: #0b3c49;
+
+  /* Jungle */
+  --color-jungle-palm:   #1b5e20;
+  --color-jungle-leaf:   #6bbf59;
+  --color-jungle-papaya: #f9a03f;
+  --color-jungle-cream:  #fcefd4;
+
+  /* Citrus Pop */
+  --color-citrus-pop-lemon:    #ffd000;
+  --color-citrus-pop-orange:   #ff7a00;
+  --color-citrus-pop-hibiscus: #ff3d7f;
+  --color-citrus-pop-ink:      #1a1a1a;
+
+  /* Miami Deco */
+  --color-miami-deco-cream:     #fff3e0;
+  --color-miami-deco-pink:      #f7a1c4;
+  --color-miami-deco-turquoise: #64d2d9;
+  --color-miami-deco-ink:       #3a2e5c;
+
+  --font-serif:   "Fraunces Variable", Georgia, serif;
+  --font-sans:    "DM Sans Variable", "Helvetica Neue", Arial, sans-serif;
+  --font-display: "Gendy", "Fraunces Variable", Georgia, serif;
+  --font-alegreya: "Alegreya", Georgia, serif;
+}
+
+@font-face {
+  font-family: "Gendy";
+  src: url("/fonts/Gendy.otf") format("opentype");
+  font-weight: 400;
+  font-display: swap;
+}
+
+@layer base {
+  body {
+    background-color: var(--color-offwhite);
+    color: black;
+  }
+}
