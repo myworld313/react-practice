@@ -12,7 +12,7 @@ function Navbar() {
   const [open, setOpen] = useState(false);
 
   return (
-    <header className="sticky top-0 z-50 bg-palm text-white">
+    <header className="sticky top-0 z-50 bg-white text-black">
       <nav className="flex items-center justify-between px-6 py-4 lg:px-14">
         <Link
           to="/"
